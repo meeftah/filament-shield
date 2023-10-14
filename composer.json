@@ -13,6 +13,12 @@
         "rbac",
         "security"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/meeftah/filament-shield"
+        }
+    ],
     "homepage": "https://github.com/bezhansalleh/filament-shield",
     "license": "MIT",
     "authors": [
@@ -26,7 +32,8 @@
         "php": "^8.1",
         "filament/filament": "^3.0",
         "spatie/laravel-package-tools": "^1.9",
-        "spatie/laravel-permission": "^5.0"
+        "spatie/laravel-permission": "^5.0",
+        "bezhansalleh/filament-shield": "dev-new-features"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
