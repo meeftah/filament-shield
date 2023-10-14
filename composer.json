@@ -1,5 +1,11 @@
 {
     "name": "bezhansalleh/filament-shield",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/meeftah/filament-shield"
+        }
+    ],
     "description": "Filament support for `spatie/laravel-permission`.",
     "keywords": [
         "bezhanSalleh",
@@ -12,12 +18,6 @@
         "acl",
         "rbac",
         "security"
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "http://github.com/meeftah/filament-shield"
-        }
     ],
     "homepage": "https://github.com/bezhansalleh/filament-shield",
     "license": "MIT",
